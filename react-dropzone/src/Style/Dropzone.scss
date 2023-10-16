@@ -1,0 +1,64 @@
+%flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+%flex-row-property {
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  // border: 1px solid black;
+}
+
+@mixin custom-svg($svg-color) {
+  > div {
+    > svg {
+      fill: $svg-color;
+    }
+  }
+}
+
+.frame-dropzone {
+  @extend %flex-row;
+  // border: 1px solid black;
+
+  > .dropzone-item-1 {
+    @extend %flex-row-property;
+    @include custom-svg(red); // border: 1px solid black;
+
+    width: auto;
+    padding: 10px 30px;
+    margin: 0 auto;
+    > div {
+      > svg {
+        cursor: pointer;
+      }
+    }
+  }
+  > .dropzone-item-2 {
+    @extend %flex-row-property;
+    // border: 1px solid black;
+    @include custom-svg(rgb(151, 9, 9));
+    width: auto;
+    padding: 10px 30px;
+    margin: 0 auto;
+    text-align: center;
+    > ul {
+      text-align: left;
+      display: inline-block;
+      > h4 {
+        color: red;
+      }
+    }
+  }
+
+  .custom-icon-spacing {
+    margin: 5px 0px;
+  }
+}

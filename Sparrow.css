@@ -1,0 +1,142 @@
+/* Sparrow Custom css */
+
+/* Extra small	 xsm	<576px */
+@media only screen and (min-width: 0px) {
+  .ms-xsm-6 {
+    margin-left: 6rem !important;
+  }
+  .ms-xsm-7 {
+    margin-left: 12rem !important;
+  }
+  .ms-xsm-8 {
+    margin-left: 24rem !important;
+  }
+
+  .me-xsm-6 {
+    margin-right: 6rem !important;
+  }
+  .me-xsm-7 {
+    margin-right: 12rem !important;
+  }
+  .me-xsm-8 {
+    margin-right: 24rem !important;
+  }
+}
+
+/* Small	sm	≥576px */
+@media only screen and (min-width: 576px) {
+  .ms-sm-6 {
+    margin-left: 6rem !important;
+  }
+  .ms-sm-7 {
+    margin-left: 12rem !important;
+  }
+  .ms-sm-8 {
+    margin-left: 24rem !important;
+  }
+
+  .me-sm-6 {
+    margin-right: 6rem !important;
+  }
+  .me-sm-7 {
+    margin-right: 12rem !important;
+  }
+  .me-sm-8 {
+    margin-right: 24rem !important;
+  }
+}
+
+/* Medium	md	≥768px */
+@media only screen and (min-width: 768px) {
+  .ms-md-6 {
+    margin-left: 6rem !important;
+  }
+  .ms-md-7 {
+    margin-left: 12rem !important;
+  }
+  .ms-md-8 {
+    margin-left: 24rem !important;
+  }
+
+  .me-md-6 {
+    margin-right: 6rem !important;
+  }
+  .me-md-7 {
+    margin-right: 12rem !important;
+  }
+  .me-md-8 {
+    margin-right: 24rem !important;
+  }
+}
+
+/* Large	lg	≥992px */
+@media only screen and (min-width: 992px) {
+  .ms-lg-6 {
+    margin-left: 6rem !important;
+  }
+  .ms-lg-7 {
+    margin-left: 12rem !important;
+  }
+  .ms-lg-8 {
+    margin-left: 24rem !important;
+  }
+
+  .me-lg-6 {
+    margin-right: 6rem !important;
+  }
+  .me-lg-7 {
+    margin-right: 12rem !important;
+  }
+  .me-lg-8 {
+    margin-right: 24rem !important;
+  }
+  .me-lg-8 {
+    margin-right: 24rem !important;
+  }
+}
+
+/* Extra large	xl	≥1200px */
+@media only screen and (min-width: 1200px) {
+  .ms-xl-6 {
+    margin-left: 6rem !important;
+  }
+  .ms-xl-7 {
+    margin-left: 12rem !important;
+  }
+  .ms-xl-8 {
+    margin-left: 24rem !important;
+  }
+
+  .me-xl-6 {
+    margin-right: 6rem !important;
+  }
+  .me-xl-7 {
+    margin-right: 12rem !important;
+  }
+  .me-xl-8 {
+    margin-right: 24rem !important;
+  }
+}
+
+/* Extra extra large	xxl	≥1400px */
+@media only screen and (min-width: 1400px) {
+  .ms-xxl-6 {
+    margin-left: 6rem !important;
+  }
+  .ms-xxl-7 {
+    margin-left: 12rem !important;
+  }
+  .ms-xxl-8 {
+    margin-left: 24rem !important;
+  }
+
+  .me-xxl-6 {
+    margin-right: 6rem !important;
+  }
+  .me-xxl-7 {
+    margin-right: 12rem !important;
+  }
+  .me-xxl-8 {
+    margin-right: 24rem !important;
+  }
+}
